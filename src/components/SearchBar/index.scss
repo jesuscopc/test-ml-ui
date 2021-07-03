@@ -1,0 +1,27 @@
+@import '../../vars';
+
+.search__wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
+  max-width: $container-max-width;
+  margin: auto;
+}
+
+.search {
+  max-width: $container-max-width;
+  grid-column-start: 3;
+  grid-column-end: 11;
+  display: flex;
+  padding: 15px;
+  & input {
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+  }
+  & button {
+    border: none;
+    background-color: #eeeeee;
+  }
+}

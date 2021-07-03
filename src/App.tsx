@@ -1,8 +1,9 @@
 import React from 'react';
-// import './index.scss';
+import MlApp from './root/MlApp';
+import './index.scss';
 
 const App = (): React.ReactElement => {
-  return <h1>ML TEST APP WORKS FINE</h1>;
+  return <MlApp />;
 };
 
 export default App;
