@@ -6,7 +6,7 @@ import './index.scss';
 
 const WithHeader =
   (Component: any) =>
-  (props: never): React.ReactElement =>
+  (props: any): React.ReactElement =>
     (
       <>
         <div className="header">

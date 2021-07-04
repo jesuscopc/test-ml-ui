@@ -1,6 +1,19 @@
 @import './vars';
 
+@font-face {
+  font-family: 'Roboto';
+  font-weight: bold;
+  src: url('./assets/fonts/Roboto-Bold.woff') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  src: url('./assets/fonts/Roboto-Light.woff') format('woff2');
+}
+
 body {
+  font-family: 'Roboto', Courier, monospace;
   margin: 0;
   background-color: #eeeeee;
 }

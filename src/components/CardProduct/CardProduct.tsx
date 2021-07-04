@@ -1,11 +1,14 @@
 import React from 'react';
-import './index.scss';
+import { Link } from 'react-router-dom';
 import LogoML from 'assets/images/Logo_ML@2x.png.png';
+import './index.scss';
 
 const CardProduct = (): React.ReactElement => {
   return (
     <div className="cardProduct">
-      <img src={LogoML} alt="imagen Product" width="180" height="180" tabIndex={0} />
+      <Link to="/detailProduct/1" tabIndex={0}>
+        <img src={LogoML} alt="imagen Product" width="180" height="180" />
+      </Link>
       <div className="cardProduct__info">
         <div>
           <p title="Price Product" className="cardProduct__info__price" tabIndex={0}>
