@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Suit test CardProduct Component should be render correctly 1`] = `
+<div
+  className="cardProduct"
+>
+  <Link
+    tabIndex={0}
+    to="/detailProduct/1"
+  >
+    <img
+      alt="imagen Product"
+      height="180"
+      src={Object {}}
+      width="180"
+    />
+  </Link>
+  <div
+    className="cardProduct__info"
+  >
+    <div>
+      <p
+        className="cardProduct__info__price"
+        tabIndex={0}
+        title="Price Product"
+      >
+        $ 1980
+      </p>
+      <p
+        className="cardProduct__info__description"
+        tabIndex={0}
+        title="Description Product"
+      >
+        Apple ipod touch 5g 16g negro Igual a nuevo Completo Unico
+      </p>
+    </div>
+    <p
+      className="cardProduct__location"
+      tabIndex={0}
+      title="Description Product"
+    >
+      Capital federal
+    </p>
+  </div>
+</div>
+`;

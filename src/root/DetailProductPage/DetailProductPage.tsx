@@ -3,7 +3,7 @@ import WithHeader from 'hocs/WithHeader/WithHeader';
 import Ipod from 'assets/images/ipod.jpg';
 import './index.scss';
 
-const DetailProductPage = () => {
+const DetailProductPage = (): React.ReactElement => {
   return (
     <div className="container detail">
       <section className="detailProduct">
@@ -32,3 +32,4 @@ const DetailProductPage = () => {
 };
 
 export default WithHeader(DetailProductPage);
+export { DetailProductPage as PureDetailProductPage };

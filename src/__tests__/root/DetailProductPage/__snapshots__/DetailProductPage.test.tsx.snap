@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Suit test DetailProductPage Page should be render correctly 1`] = `
+<Component>
+  <div
+    className="header"
+  >
+    <div
+      className="container header__navBar"
+    >
+      <img
+        alt="pagina principal"
+        className="header__logo"
+        src={Object {}}
+        tabIndex={0}
+      />
+      <div
+        className="header__searchBox"
+      >
+        <SearchBox>
+          <form
+            className="searchBox"
+            onSubmit={[Function]}
+          >
+            <input
+              name="search"
+              onChange={[Function]}
+              placeholder="Nunca dejes de buscar"
+              type="search"
+              value=""
+            />
+            <button
+              type="submit"
+            >
+              <img
+                alt="buscar"
+                src={Object {}}
+              />
+            </button>
+          </form>
+        </SearchBox>
+      </div>
+    </div>
+  </div>
+  <DetailProductPage>
+    <div
+      className="container detail"
+    >
+      <section
+        className="detailProduct"
+      >
+        <img
+          alt="ipod touch 5g"
+          height="200"
+          src={Object {}}
+          tabIndex={0}
+          width="200"
+        />
+        <h2>
+          Descipcion del producto
+        </h2>
+        <p
+          tabIndex={0}
+          title="descripion del producto"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deleniti laboriosam enim dolorem natus eaque quae quod voluptatem necessitatibus, saepe vero praesentium quam temporibus nihil accusantium sit! Repellendus, molestias sunt!
+        </p>
+      </section>
+      <section
+        className="buyCard"
+      >
+        <p
+          className="buyCard__status"
+          tabIndex={0}
+          title="items vendidos"
+        >
+          220 vendidos
+        </p>
+        <p
+          className="buyCard__title"
+          tabIndex={0}
+          title="producto"
+        >
+          Deco reverse sombrero oxxo
+        </p>
+        <p
+          className="buyCard__price"
+          tabIndex={0}
+          title="precio"
+        >
+          $ 1980
+          <small>
+            00
+          </small>
+        </p>
+        <button
+          type="button"
+        >
+          Comprar
+        </button>
+      </section>
+    </div>
+  </DetailProductPage>
+</Component>
+`;
