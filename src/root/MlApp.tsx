@@ -1,11 +1,12 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Routes from './routes';
 
 const MlApp = (): React.ReactElement => {
   return (
-    <div>
+    <BrowserRouter basename="/">
       <Routes />
-    </div>
+    </BrowserRouter>
   );
 };
 

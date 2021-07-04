@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Suit test MlApp should be defined MLApp 1`] = `
-<div>
+<BrowserRouter
+  basename="/"
+>
   <Routes />
-</div>
+</BrowserRouter>
 `;
