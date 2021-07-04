@@ -2,9 +2,13 @@
 
 body {
   margin: 0;
+  background-color: #eeeeee;
 }
 
 .container {
-  background-color: #eeeeee;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
   max-width: $container-max-width;
+  margin: auto;
 }

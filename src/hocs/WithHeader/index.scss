@@ -1,0 +1,16 @@
+.header {
+  background-color: yellow;
+  &__navBar {
+    padding: 15px;
+    align-items: center;
+  }
+  &__logo {
+    padding: 0;
+    grid-column-start: 2;
+    text-align: right;
+  }
+  &__searchBox {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+}

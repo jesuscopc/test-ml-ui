@@ -1,12 +1,13 @@
 import React from 'react';
-import SearchBar from 'components/SearchBar/SearchBar';
+import CardProduct from 'components/CardProduct/CardProduct';
+import WithHeader from 'hocs/WithHeader/WithHeader';
 
 const RootPage = (): React.ReactElement => {
   return (
-    <div>
-      <SearchBar />
+    <div className="container">
+      <CardProduct />
     </div>
   );
 };
 
-export default RootPage;
+export default WithHeader(RootPage);

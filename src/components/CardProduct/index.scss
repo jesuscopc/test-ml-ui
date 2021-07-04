@@ -1,0 +1,47 @@
+.cardProduct {
+  grid-column-start: 2;
+  grid-column-end: 11;
+  display: inline-flex;
+  margin-top: 32px;
+  background-color: #fff;
+  padding: 20px;
+  & img {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+  }
+  &__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    &__price {
+      color: green;
+      font-size: 24px;
+    }
+    &__description {
+      font-size: 18px;
+      max-width: 350px;
+      color: red;
+    }
+  }
+  &__location {
+    font-size: 12px;
+    margin-top: 24px;
+    min-width: 71px;
+    color: blue;
+  }
+}
+
+@media (max-width: 500px) {
+  .cardProduct {
+    & img {
+      width: 130px;
+      height: auto;
+    }
+    flex-direction: column;
+    & img {
+      margin: auto;
+    }
+  }
+}

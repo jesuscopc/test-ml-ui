@@ -27,6 +27,7 @@
     "import/extensions": "off",
     "no-use-before-define": "off",
     "import/no-unresolved": "off",
+    "jsx-a11y/no-noninteractive-tabindex": "off",
     "react/jsx-filename-extension": [
       1,
       {
