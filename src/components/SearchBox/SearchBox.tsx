@@ -5,12 +5,12 @@ import './index.scss';
 const SearchBox = (): React.ReactElement => {
   const [inputValue, setInputValue] = useState<string>('');
 
-  const handlSubmit = (e: React.FormEvent): void => {
+  const handleSubmit = (e: React.FormEvent): void => {
     e.preventDefault();
   };
 
   return (
-    <form className="searchBox" onSubmit={handlSubmit}>
+    <form className="searchBox" onSubmit={handleSubmit}>
       <input
         type="search"
         placeholder="Nunca dejes de buscar"
