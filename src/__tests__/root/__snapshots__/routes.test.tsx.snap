@@ -9,6 +9,10 @@ exports[`Suit test Routes should be render correctly 1`] = `
   />
   <Route
     component={[Function]}
+    path="/items"
+  />
+  <Route
+    component={[Function]}
     path="/detailProduct/:idProduct"
   />
 </Switch>

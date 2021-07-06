@@ -22,6 +22,7 @@ describe('Suit Test SearchBox Component', () => {
   });
 
   test('should send fomaValue form', () => {
+    const history = jest.fn();
     wrapper.find('form').simulate('submit', { preventDefault() {} });
     expect(handleSubmit).not.toHaveBeenCalled();
   });

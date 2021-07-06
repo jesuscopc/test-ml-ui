@@ -6,12 +6,12 @@ exports[`Suit test CardProduct Component should be render correctly 1`] = `
 >
   <Link
     tabIndex={0}
-    to="/detailProduct/1"
+    to="/detailProduct/MLDSHJK98"
   >
     <img
-      alt="imagen Product"
+      alt="iPOD tOUCH"
       height="180"
-      src={Object {}}
+      src="image.png"
       width="180"
     />
   </Link>
@@ -24,14 +24,14 @@ exports[`Suit test CardProduct Component should be render correctly 1`] = `
         tabIndex={0}
         title="Price Product"
       >
-        $ 1980
+        $ 19.9990
       </p>
       <p
         className="cardProduct__info__description"
         tabIndex={0}
         title="Description Product"
       >
-        Apple ipod touch 5g 16g negro Igual a nuevo Completo Unico
+        iPOD tOUCH
       </p>
     </div>
     <p
@@ -39,7 +39,7 @@ exports[`Suit test CardProduct Component should be render correctly 1`] = `
       tabIndex={0}
       title="Description Product"
     >
-      Capital federal
+      Distrito federal
     </p>
   </div>
 </div>
