@@ -6,6 +6,7 @@ import DetailProductPage from './DetailProductPage/DetailProductPage';
 const Routes = (): React.ReactElement => (
   <Switch>
     <Route exact path="/" component={RootPage} />
+    <Route path="/items" component={RootPage} />
     <Route path="/detailProduct/:idProduct" component={DetailProductPage} />
   </Switch>
 );

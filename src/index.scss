@@ -21,7 +21,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1px;
   max-width: $container-max-width;
   margin: auto;
 }

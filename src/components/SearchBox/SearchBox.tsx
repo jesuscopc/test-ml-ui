@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import icSearch from 'assets/images/ic_Search.png';
 import './index.scss';
 
 const SearchBox = (): React.ReactElement => {
-  const [inputValue, setInputValue] = useState<string>('');
+  const [inputSearch, setInputSearch] = useState<string>('');
+  const history = useHistory();
 
   const handleSubmit = (e: React.FormEvent): void => {
     e.preventDefault();
+    history.push(`/items?search=${inputSearch}`);
   };
 
   return (
@@ -15,8 +18,8 @@ const SearchBox = (): React.ReactElement => {
         type="search"
         placeholder="Nunca dejes de buscar"
         name="search"
-        value={inputValue}
-        onChange={e => setInputValue(e.currentTarget.value)}
+        value={inputSearch}
+        onChange={e => setInputSearch(e.currentTarget.value)}
       />
       <button type="submit">
         <img src={icSearch} alt="buscar" />
