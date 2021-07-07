@@ -3,8 +3,13 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import SearchBox from '../../components/SearchBox/SearchBox';
 
+jest.mock('react-router-dom', () => ({
+  useHistory: () => ({
+    push: jest.fn()
+  })
+}));
 describe('Suit Test SearchBox Component', () => {
-  const handleSubmit = jest.fn();
+  // const handleSubmit = jest.fn();
   let wrapper = shallow(<SearchBox />);
   beforeEach(() => {
     wrapper = shallow(<SearchBox />);
@@ -21,9 +26,9 @@ describe('Suit Test SearchBox Component', () => {
     expect(wrapper.find('input').props().value).toBe(value);
   });
 
-  test('should send fomaValue form', () => {
-    const history = jest.fn();
-    wrapper.find('form').simulate('submit', { preventDefault() {} });
+  test('should not send fomaValue form', () => {
+    const handleSubmit = jest.fn();
+    wrapper.find('form').simulate('submit', { preventDefault: () => {} });
     expect(handleSubmit).not.toHaveBeenCalled();
   });
 });

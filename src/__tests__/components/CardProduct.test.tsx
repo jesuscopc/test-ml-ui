@@ -9,8 +9,7 @@ describe('Suit test CardProduct Component', () => {
     title: 'iPOD tOUCH',
     price: '19.9990',
     thumbnail: 'image.png',
-    address: 'Distrito federal',
-    attributes: []
+    address: 'Distrito federal'
   };
   let wrapper = shallow(<CardProduct {...propsItem} />);
   beforeEach(() => {
@@ -18,5 +17,9 @@ describe('Suit test CardProduct Component', () => {
   });
   test('should be render correctly', () => {
     expect(wrapper).toMatchSnapshot();
+  });
+
+  test('should be render Title product', () => {
+    expect(wrapper.find('.cardProduct__info__description').text()).toBe(propsItem.title);
   });
 });

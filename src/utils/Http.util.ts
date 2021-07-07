@@ -11,20 +11,16 @@ export const SendRequest = async (path: string): Promise<IResponse> => {
     headers
   });
   if (response.ok) {
-    try {
-      const result = await response.json();
-      return {
-        success: true,
-        data: result
-      };
-    } catch (error) {
-      return {
-        success: false,
-        data: null
-      };
-    }
+    const result = await response.json();
+    return {
+      success: true,
+      data: result
+    };
   }
-  throw new Error('Error in request');
+  return {
+    success: false,
+    data: null
+  };
 };
 
 export default { SendRequest };

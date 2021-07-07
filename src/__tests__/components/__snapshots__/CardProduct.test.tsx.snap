@@ -6,7 +6,7 @@ exports[`Suit test CardProduct Component should be render correctly 1`] = `
 >
   <Link
     tabIndex={0}
-    to="/detailProduct/MLDSHJK98"
+    to="/items/MLDSHJK98"
   >
     <img
       alt="iPOD tOUCH"
@@ -26,13 +26,18 @@ exports[`Suit test CardProduct Component should be render correctly 1`] = `
       >
         $ 19.9990
       </p>
-      <p
-        className="cardProduct__info__description"
+      <Link
         tabIndex={0}
-        title="Description Product"
+        to="/items/MLDSHJK98"
       >
-        iPOD tOUCH
-      </p>
+        <p
+          className="cardProduct__info__description"
+          tabIndex={0}
+          title="Description Product"
+        >
+          iPOD tOUCH
+        </p>
+      </Link>
     </div>
     <p
       className="cardProduct__location"
