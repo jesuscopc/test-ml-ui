@@ -1,0 +1,17 @@
+.header {
+  background-color: yellow;
+  margin-bottom: 50px;
+  &__navBar {
+    padding: 15px;
+    align-items: center;
+  }
+  &__logo {
+    padding: 0;
+    grid-column-start: 2;
+    text-align: center;
+  }
+  &__searchBox {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+}

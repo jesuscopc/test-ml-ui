@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Suit Test SearchBox Component should be render correctly 1`] = `
+<form
+  className="searchBox"
+  onSubmit={[Function]}
+>
+  <input
+    name="search"
+    onChange={[Function]}
+    placeholder="Nunca dejes de buscar"
+    type="search"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    <img
+      alt="buscar"
+      src={Object {}}
+    />
+  </button>
+</form>
+`;

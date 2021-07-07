@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Suit test CardProduct Component should be render correctly 1`] = `
+<div
+  className="cardProduct"
+>
+  <Link
+    tabIndex={0}
+    to="/items/MLDSHJK98"
+  >
+    <img
+      alt="iPOD tOUCH"
+      height="180"
+      src="image.png"
+      width="180"
+    />
+  </Link>
+  <div
+    className="cardProduct__info"
+  >
+    <div>
+      <p
+        className="cardProduct__info__price"
+        tabIndex={0}
+        title="Price Product"
+      >
+        $ 19.9990
+      </p>
+      <Link
+        tabIndex={0}
+        to="/items/MLDSHJK98"
+      >
+        <p
+          className="cardProduct__info__description"
+          tabIndex={0}
+          title="Description Product"
+        >
+          iPOD tOUCH
+        </p>
+      </Link>
+    </div>
+    <p
+      className="cardProduct__location"
+      tabIndex={0}
+      title="Description Product"
+    >
+      Distrito federal
+    </p>
+  </div>
+</div>
+`;

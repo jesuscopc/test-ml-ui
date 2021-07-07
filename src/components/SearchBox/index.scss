@@ -1,0 +1,14 @@
+.searchBox {
+  display: flex;
+  & input {
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+  }
+  & button {
+    border: none;
+    background-color: #eeeeee;
+    width: 50px;
+  }
+}
