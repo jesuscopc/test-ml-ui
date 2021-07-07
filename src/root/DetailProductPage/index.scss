@@ -33,6 +33,9 @@ $minColWidth: 5rem;
     margin-top: 0px;
     margin-bottom: 32px;
   }
+  &__description {
+    text-align: justify;
+  }
   & button {
     padding: 10px;
     background-color: #3483fa;
