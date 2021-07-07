@@ -7,7 +7,6 @@ export type TProduct = {
   price: string;
   title: string;
   thumbnail: string;
-  attributes: Array<any>;
   address: string;
 };
 
